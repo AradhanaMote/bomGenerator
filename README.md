@@ -64,29 +64,31 @@ Export Results
 📊 Sample Output
 text
 
+```
 ------------------------------------------------------------
 📊 BOM PREVIEW: Compact Electric Scooter with Disc Brakes and LED Display
 ------------------------------------------------------------
 +----------+-------------------------------+------------+-------+--------+-----------------+
-| ID       | Component                     | Category   |   Qty | Unit   |   Subcomponents |
+| ID       | Component                     | Category   | Qty   | Unit   | Subcomponents   |
 +==========+===============================+============+=======+========+=================+
-| comp-001 | Frame Assembly                | structural |     1 | piece  |               5 |
-| comp-002 | Motor & Drive System          | electrical |     1 | piece  |               4 |
-| comp-003 | Lithium Battery Pack          | electrical |     1 | piece  |               4 |
-| comp-004 | Braking System                | mechanical |     1 | set    |               5 |
-| comp-005 | Steering & Handlebar Assembly | mechanical |     1 | piece  |               4 |
-| comp-006 | Wheels & Tires                | mechanical |     1 | set    |               4 |
-| comp-007 | LED Display & Lighting        | electrical |     1 | set    |               4 |
-| comp-008 | Charging System               | electrical |     1 | set    |               3 |
-| comp-009 | Fenders & Accessories         | structural |     1 | set    |               4 |
-| comp-010 | Fasteners & Hardware Kit      | hardware   |     1 | kit    |               4 |
+| comp-001 | Frame Assembly                | structural | 1     | piece  | 5               |
+| comp-002 | Motor & Drive System          | electrical | 1     | piece  | 4               |
+| comp-003 | Lithium Battery Pack          | electrical | 1     | piece  | 4               |
+| comp-004 | Braking System                | mechanical | 1     | set    | 5               |
+| comp-005 | Steering & Handlebar Assembly | mechanical | 1     | piece  | 4               |
+| comp-006 | Wheels & Tires                | mechanical | 1     | set    | 4               |
+| comp-007 | LED Display & Lighting        | electrical | 1     | set    | 4               |
+| comp-008 | Charging System               | electrical | 1     | set    | 3               |
+| comp-009 | Fenders & Accessories         | structural | 1     | set    | 4               |
+| comp-010 | Fasteners & Hardware Kit      | hardware   | 1     | kit    | 4               |
 +----------+-------------------------------+------------+-------+--------+-----------------+
 
-💰 TOTAL ESTIMATED COST: $460.55
+💰 **TOTAL ESTIMATED COST: $460.55**
+```
 
-🏗️ Project Structure
-text
+## 🏗️ Project Structure
 
+```
 bomGenerator/
 ├── src/
 │   ├── main.py                 # Main application entry point
@@ -102,6 +104,7 @@ bomGenerator/
 ├── requirements.txt            # Python dependencies
 ├── config.yaml                 # Configuration settings
 └── .env.example                # Template for API key (copy to .env)
+```
 
 🔑 Getting a Gemini API Key
 
