@@ -115,3 +115,69 @@ bomGenerator/
     Click "Create API Key"
 
     Copy the key and add it to your .env file
+
+## 📝 Example Product Descriptions to Try
+
+```
+Design a wooden chair with 4 legs and a backrest
+Create a Bluetooth speaker with rechargeable battery
+Build a quadcopter drone with 4K camera and GPS
+Design a smart thermostat with touch screen
+Create an electric bicycle with 250W motor
+```
+
+## 🛠️ Technical Details
+
+### How Prompting Works
+The system uses carefully engineered prompts that:
+- Set the AI's role as a BOM expert
+- Provide clear JSON schema requirements
+- Include few-shot examples
+- Use low temperature (0.3) for consistent outputs
+
+### Hallucination Handling
+Multiple safeguards prevent AI hallucinations:
+- **Validation Rules**: Checks for unrealistic quantities (>100)
+- **Category Enforcement**: Components must match known categories
+- **"verify_needed" Flag**: Marks uncertain components for review
+- **JSON Schema Validation**: Ensures structure matches expectations
+
+### Validation Mechanism
+The system validates:
+- Required fields (name, quantity, category)
+- Positive quantities
+- Proper JSON structure
+- Component counts match totals
+
+## 🐛 Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| "No module named 'google'" | Run `pip install -r requirements.txt` |
+| "API key not found" | Create `.env` file with `GEMINI_API_KEY=your-key` |
+| "Rate limit exceeded" | Wait 60 seconds and retry (free tier limits) |
+| "JSON decode error" | The parser automatically fixes common JSON issues |
+
+## 📊 Requirements Met
+
+| Requirement | Status | Implementation |
+|------------|--------|----------------|
+| LLM Integration | ✅ | Google Gemini 2.5 Flash API |
+| Component Extraction | ✅ | 10+ components with subcomponents |
+| JSON Output | ✅ | Structured JSON parsing |
+| Table Format | ✅ | Terminal display with tabulate |
+| Manual Editing | ✅ | Full CRUD operations |
+| Cost Estimation | ✅ | Component price database |
+| CSV Export | ✅ | Excel-compatible format |
+| Revision Control | ✅ | Version tracking with history |
+
+## 📧 Contact
+
+- **GitHub Repository**: [https://github.com/AradhanaMote/bomGenerator](https://github.com/AradhanaMote/bomGenerator)
+- **Report Issues**: Open an issue on GitHub
+
+---
+
+**Built with** Google Gemini API • Python • Lots of ☕
+
+*Happy BOM Generating!* 🚀
