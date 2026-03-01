@@ -1,0 +1,44 @@
+{
+  "revision_id": "REV-20260228-0aa3d053",
+  "timestamp": "2026-02-28T21:10:26.910539",
+  "user": "system",
+  "bom": {
+    "product_name": "Product (Manual Entry)",
+    "description": "Design a small electric scooter with lithium battery, disc brakes, LED display",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Main Assembly",
+        "category": "assembly",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [],
+        "verify_needed": true,
+        "notes": "Manual verification required - AI generation failed",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      }
+    ],
+    "total_components": 1,
+    "generated_at": "2026-02-28T21:10:26.909705",
+    "fallback": true,
+    "validated_at": "2026-02-28T21:10:26.910017",
+    "cost_estimate": {
+      "total_usd": 25.0,
+      "breakdown": [
+        {
+          "name": "Main Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}

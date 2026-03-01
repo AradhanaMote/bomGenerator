@@ -1,0 +1,111 @@
+{
+  "battery": {
+    "lithium_ion": 85.50,
+    "lithium_polymer": 95.00,
+    "lead_acid": 45.00,
+    "nimh": 55.00,
+    "generic": 65.00
+  },
+  "motor": {
+    "dc_brushless": 75.00,
+    "brushed": 35.00,
+    "stepper": 42.00,
+    "servo": 28.00,
+    "hub_motor": 120.00
+  },
+  "controller": {
+    "motor_controller": 45.00,
+    "speed_controller": 32.00,
+    "programmable": 85.00,
+    "basic": 25.00
+  },
+  "brakes": {
+    "disc_brake_set": 45.00,
+    "disc_brake_caliper": 22.50,
+    "disc_rotor": 15.00,
+    "drum_brake": 30.00,
+    "brake_lever": 12.00,
+    "brake_cable": 5.00,
+    "brake_pads_set": 8.00
+  },
+  "display": {
+    "lcd_display": 35.00,
+    "led_display": 18.00,
+    "oled_display": 42.00,
+    "touch_screen": 65.00,
+    "simple_indicator": 12.00
+  },
+  "frame": {
+    "aluminum_frame": 120.00,
+    "steel_frame": 80.00,
+    "carbon_fiber": 250.00,
+    "titanium": 350.00,
+    "plastic_chassis": 45.00
+  },
+  "wheels": {
+    "pneumatic_tire_set": 45.00,
+    "solid_tire_set": 35.00,
+    "hub_with_bearings": 25.00,
+    "rim_only": 18.00,
+    "caster_wheel": 15.00
+  },
+  "throttle": {
+    "thumb_throttle": 18.00,
+    "twist_throttle": 22.00,
+    "trigger_throttle": 20.00,
+    "foot_pedal": 30.00
+  },
+  "charger": {
+    "smart_charger": 35.00,
+    "fast_charger": 55.00,
+    "standard_charger": 22.00,
+    "usb_charger": 12.00
+  },
+  "wiring": {
+    "wiring_harness": 18.00,
+    "cable_set": 12.00,
+    "connector_set": 8.00,
+    "wire_loom": 5.00,
+    "fuse_box": 6.00
+  },
+  "sensors": {
+    "hall_sensor": 4.50,
+    "temperature_sensor": 6.00,
+    "speed_sensor": 8.00,
+    "current_sensor": 12.00,
+    "voltage_sensor": 7.00
+  },
+  "hardware": {
+    "screw_m2": 0.05,
+    "screw_m3": 0.08,
+    "screw_m4": 0.10,
+    "screw_m5": 0.12,
+    "nut_m2": 0.03,
+    "nut_m3": 0.04,
+    "nut_m4": 0.05,
+    "washer": 0.02,
+    "bolt": 0.15
+  },
+  "electronic_components": {
+    "resistor": 0.02,
+    "capacitor": 0.10,
+    "diode": 0.15,
+    "transistor": 0.25,
+    "ic_chip": 1.50,
+    "microcontroller": 5.00,
+    "pcb": 3.00
+  },
+  "fasteners": {
+    "zip_tie_100mm": 0.10,
+    "zip_tie_200mm": 0.15,
+    "cable_clip": 0.08,
+    "mounting_bracket": 1.50
+  },
+  "structural": {
+    "aluminum_profile": 15.00,
+    "steel_tube": 12.00,
+    "plastic_cover": 8.00,
+    "rubber_grommet": 0.50,
+    "bushing": 1.00
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "revision_id": "REV-20260228-83adadae",
+  "timestamp": "2026-02-28T21:38:11.863984",
+  "user": "system",
+  "bom": {
+    "product_name": "Compact Electric Scooter with Disc Brakes and LED Display",
+    "description": "Design a small electric scooter with lithium battery, disc brakes, LED display",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Frame Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Main Frame Chassis",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Steering Tube",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Folding Mechanism Hinge",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Deck Plate",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Kickstand",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Aluminum alloy frame for lightweight design",
+        "estimated_cost": 120.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-002",
+        "name": "Motor & Drive System",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Brushless DC Hub Motor (350W)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Motor Controller (ESC)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Motor Wiring Harness",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Throttle Control Unit",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Rear wheel hub motor for direct drive",
+        "estimated_cost": 75.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-003",
+        "name": "Lithium Battery Pack",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "18650 Lithium-ion Cells (36V 10Ah)",
+            "quantity": 30,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Battery Management System (BMS)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Battery Enclosure/Housing",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Power Output Connector",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Integrated battery pack within the deck",
+        "estimated_cost": 85.5,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-004",
+        "name": "Braking System",
+        "category": "mechanical",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Front Disc Brake Caliper",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Disc Brake Caliper",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Brake Levers (Left & Right)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Brake Cables (Front & Rear)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Brake Discs (Rotors)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Dual disc brakes for reliable stopping power",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-005",
+        "name": "Steering & Handlebar Assembly",
+        "category": "mechanical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Handlebar Bar",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Handlebar Stem",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Hand Grips",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Headset Bearings",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Adjustable height handlebar",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-006",
+        "name": "Wheels & Tires",
+        "category": "mechanical",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Front Wheel Assembly (8.5 inch)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Wheel Assembly (8.5 inch)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Pneumatic Tires (8.5 inch)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Inner Tubes (8.5 inch)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Pneumatic tires for improved ride comfort",
+        "estimated_cost": 45.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-007",
+        "name": "LED Display & Lighting",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "LED Display Unit (Speed, Battery, Mode)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Front Headlight LED",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Taillight LED",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Main Electrical Wiring Harness",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Integrated lighting for safety and visibility",
+        "estimated_cost": 35.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-008",
+        "name": "Charging System",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Charging Port Receptacle",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "External Battery Charger (36V)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Charging Port Cover",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Standard charging port for convenience",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-009",
+        "name": "Fenders & Accessories",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Front Fender",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Fender",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Electric Bell",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Reflectors (Front, Rear, Side)",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Includes essential accessories for urban use",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-010",
+        "name": "Fasteners & Hardware Kit",
+        "category": "hardware",
+        "quantity": 1,
+        "unit": "kit",
+        "subcomponents": [
+          {
+            "name": "Assorted Bolts & Screws",
+            "quantity": 1,
+            "unit": "kit",
+            "verify_needed": false
+          },
+          {
+            "name": "Assorted Nuts & Washers",
+            "quantity": 1,
+            "unit": "kit",
+            "verify_needed": false
+          },
+          {
+            "name": "Cable Management Clips",
+            "quantity": 10,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Rubber Grommets",
+            "quantity": 5,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Standard metric fasteners for assembly",
+        "estimated_cost": 0.05,
+        "cost_unit": "USD"
+      }
+    ],
+    "generated_at": "2026-02-28T21:38:11.862777",
+    "total_components": 10,
+    "validated_at": "2026-02-28T21:38:11.863319",
+    "cost_estimate": {
+      "total_usd": 460.55,
+      "breakdown": [
+        {
+          "name": "Frame Assembly",
+          "quantity": 1,
+          "unit_cost": 120.0,
+          "total": 120.0
+        },
+        {
+          "name": "Motor & Drive System",
+          "quantity": 1,
+          "unit_cost": 75.0,
+          "total": 75.0
+        },
+        {
+          "name": "Lithium Battery Pack",
+          "quantity": 1,
+          "unit_cost": 85.5,
+          "total": 85.5
+        },
+        {
+          "name": "Braking System",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Steering & Handlebar Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Wheels & Tires",
+          "quantity": 1,
+          "unit_cost": 45.0,
+          "total": 45.0
+        },
+        {
+          "name": "LED Display & Lighting",
+          "quantity": 1,
+          "unit_cost": 35.0,
+          "total": 35.0
+        },
+        {
+          "name": "Charging System",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Fenders & Accessories",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Fasteners & Hardware Kit",
+          "quantity": 1,
+          "unit_cost": 0.05,
+          "total": 0.05
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}

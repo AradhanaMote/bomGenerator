@@ -1,0 +1,467 @@
+{
+  "product_name": "Electric Scooter - Urban Commuter",
+  "description": "Compact electric scooter with 10-mile range, lithium battery, dual disc brakes, and LED display",
+  "components": [
+    {
+      "id": "comp-001",
+      "name": "Lithium-ion Battery Pack",
+      "category": "electrical",
+      "quantity": 1,
+      "unit": "piece",
+      "subcomponents": [
+        {
+          "name": "18650 Lithium Cells",
+          "quantity": 20,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Battery Management System (BMS)",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Battery Housing",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "XT60 Connector",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "36V 10Ah configuration, Samsung cells recommended",
+      "estimated_cost": 185.50
+    },
+    {
+      "id": "comp-002",
+      "name": "Hub Motor",
+      "category": "electrical/mechanical",
+      "quantity": 1,
+      "unit": "piece",
+      "subcomponents": [
+        {
+          "name": "350W Brushless DC Motor",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Motor Controller",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Phase Wires",
+          "quantity": 3,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Hall Sensor Board",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "350W rear hub motor, 36V compatible",
+      "estimated_cost": 95.00
+    },
+    {
+      "id": "comp-003",
+      "name": "Disc Brake System",
+      "category": "mechanical",
+      "quantity": 2,
+      "unit": "sets",
+      "subcomponents": [
+        {
+          "name": "Brake Caliper",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "160mm Brake Rotor",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Brake Pads",
+          "quantity": 4,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Brake Cable",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Brake Lever",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "Mechanical disc brakes, 160mm rotors",
+      "estimated_cost": 55.00
+    },
+    {
+      "id": "comp-004",
+      "name": "LED Display Console",
+      "category": "electrical",
+      "quantity": 1,
+      "unit": "piece",
+      "subcomponents": [
+        {
+          "name": "LCD Screen",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Control Button Board",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Display Housing",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Ribbon Cable",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "Shows speed, battery level, odometer",
+      "estimated_cost": 28.00
+    },
+    {
+      "id": "comp-005",
+      "name": "Frame Assembly",
+      "category": "structural",
+      "quantity": 1,
+      "unit": "piece",
+      "subcomponents": [
+        {
+          "name": "Aluminum Deck",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Steering Column",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Handlebar",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Folding Mechanism",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Stem Clamp",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "6061 Aluminum alloy, folding design",
+      "estimated_cost": 85.00
+    },
+    {
+      "id": "comp-006",
+      "name": "Wheel Set",
+      "category": "mechanical",
+      "quantity": 2,
+      "unit": "pieces",
+      "subcomponents": [
+        {
+          "name": "8.5-inch Pneumatic Tire",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Inner Tube",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Wheel Rim",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Ball Bearings",
+          "quantity": 4,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Axle",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "Front wheel with bearings, rear wheel integrated with motor",
+      "estimated_cost": 42.00
+    },
+    {
+      "id": "comp-007",
+      "name": "Throttle Assembly",
+      "category": "electrical",
+      "quantity": 1,
+      "unit": "piece",
+      "subcomponents": [
+        {
+          "name": "Thumb Throttle",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Throttle Sensor",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Wiring Harness",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "Hall-effect thumb throttle",
+      "estimated_cost": 18.00
+    },
+    {
+      "id": "comp-008",
+      "name": "Electrical System",
+      "category": "electrical",
+      "quantity": 1,
+      "unit": "set",
+      "subcomponents": [
+        {
+          "name": "Main Wiring Harness",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Fuse Holder with 20A Fuse",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Power Switch",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Charging Port",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Voltage Regulator",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "Complete electrical distribution system",
+      "estimated_cost": 25.00
+    },
+    {
+      "id": "comp-009",
+      "name": "Hardware Kit",
+      "category": "hardware",
+      "quantity": 1,
+      "unit": "kit",
+      "subcomponents": [
+        {
+          "name": "M4 Screws",
+          "quantity": 20,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "M5 Screws",
+          "quantity": 15,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "M4 Nuts",
+          "quantity": 20,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "M5 Nuts",
+          "quantity": 15,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Washers",
+          "quantity": 40,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Zip Ties",
+          "quantity": 10,
+          "unit": "pieces",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "Stainless steel hardware",
+      "estimated_cost": 8.50
+    },
+    {
+      "id": "comp-010",
+      "name": "Accessories",
+      "category": "accessories",
+      "quantity": 1,
+      "unit": "set",
+      "subcomponents": [
+        {
+          "name": "Kickstand",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Bell",
+          "quantity": 1,
+          "unit": "piece",
+          "verify_needed": false
+        },
+        {
+          "name": "Reflectors",
+          "quantity": 4,
+          "unit": "pieces",
+          "verify_needed": false
+        },
+        {
+          "name": "Grip Set",
+          "quantity": 2,
+          "unit": "pieces",
+          "verify_needed": false
+        }
+      ],
+      "verify_needed": false,
+      "notes": "Standard accessories",
+      "estimated_cost": 12.00
+    }
+  ],
+  "total_components": 10,
+  "generated_at": "2024-01-15T10:30:00",
+  "cost_estimate": {
+    "total_usd": 554.00,
+    "breakdown": [
+      {
+        "name": "Lithium-ion Battery Pack",
+        "quantity": 1,
+        "unit_cost": 185.50,
+        "total": 185.50
+      },
+      {
+        "name": "Hub Motor",
+        "quantity": 1,
+        "unit_cost": 95.00,
+        "total": 95.00
+      },
+      {
+        "name": "Disc Brake System",
+        "quantity": 2,
+        "unit_cost": 27.50,
+        "total": 55.00
+      },
+      {
+        "name": "LED Display Console",
+        "quantity": 1,
+        "unit_cost": 28.00,
+        "total": 28.00
+      },
+      {
+        "name": "Frame Assembly",
+        "quantity": 1,
+        "unit_cost": 85.00,
+        "total": 85.00
+      },
+      {
+        "name": "Wheel Set",
+        "quantity": 2,
+        "unit_cost": 21.00,
+        "total": 42.00
+      },
+      {
+        "name": "Throttle Assembly",
+        "quantity": 1,
+        "unit_cost": 18.00,
+        "total": 18.00
+      },
+      {
+        "name": "Electrical System",
+        "quantity": 1,
+        "unit_cost": 25.00,
+        "total": 25.00
+      },
+      {
+        "name": "Hardware Kit",
+        "quantity": 1,
+        "unit_cost": 8.50,
+        "total": 8.50
+      },
+      {
+        "name": "Accessories",
+        "quantity": 1,
+        "unit_cost": 12.00,
+        "total": 12.00
+      }
+    ],
+    "currency": "USD",
+    "estimated_at": "2024-01-15T10:30:00"
+  },
+  "revision_id": "REV-20240115-001",
+  "verified_by": "system"
+}

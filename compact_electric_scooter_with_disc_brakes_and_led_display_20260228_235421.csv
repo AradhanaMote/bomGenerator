@@ -1,0 +1,58 @@
+Product:,Compact Electric Scooter with Disc Brakes and LED Display
+Description:,"Design a small electric scooter with lithium battery, disc brakes, LED display"
+
+Component,Category,Quantity,Unit,Est. Cost (USD),Subcomponents,Notes
+Frame Assembly,structural,1,piece,120.0,5,Aluminum alloy frame for lightweight design
+  - Main Frame Chassis,,1,piece,,,
+  - Steering Tube,,1,piece,,,
+  - Folding Mechanism Hinge,,1,piece,,,
+  - Deck Plate,,1,piece,,,
+  - Kickstand,,1,piece,,,
+Motor & Drive System,electrical,1,piece,75.0,4,Rear wheel hub motor for direct drive
+  - Brushless DC Hub Motor (350W),,1,piece,,,
+  - Motor Controller (ESC),,1,piece,,,
+  - Motor Wiring Harness,,1,piece,,,
+  - Throttle Control Unit,,1,piece,,,
+Lithium Battery Pack,electrical,1,piece,85.5,4,Integrated battery pack within the deck
+  - 18650 Lithium-ion Cells (36V 10Ah),,30,pieces,,,
+  - Battery Management System (BMS),,1,piece,,,
+  - Battery Enclosure/Housing,,1,piece,,,
+  - Power Output Connector,,1,piece,,,
+Braking System,mechanical,1,set,25.0,5,Dual disc brakes for reliable stopping power
+  - Front Disc Brake Caliper,,1,piece,,,
+  - Rear Disc Brake Caliper,,1,piece,,,
+  - Brake Levers (Left & Right),,2,pieces,,,
+  - Brake Cables (Front & Rear),,2,pieces,,,
+  - Brake Discs (Rotors),,2,pieces,,,
+Steering & Handlebar Assembly,mechanical,1,piece,25.0,4,Adjustable height handlebar
+  - Handlebar Bar,,1,piece,,,
+  - Handlebar Stem,,1,piece,,,
+  - Hand Grips,,2,pieces,,,
+  - Headset Bearings,,1,set,,,
+Wheels & Tires,mechanical,1,set,45.0,4,Pneumatic tires for improved ride comfort
+  - Front Wheel Assembly (8.5 inch),,1,piece,,,
+  - Rear Wheel Assembly (8.5 inch),,1,piece,,,
+  - Pneumatic Tires (8.5 inch),,2,pieces,,,
+  - Inner Tubes (8.5 inch),,2,pieces,,,
+LED Display & Lighting,electrical,1,set,35.0,4,Integrated lighting for safety and visibility
+"  - LED Display Unit (Speed, Battery, Mode)",,1,piece,,,
+  - Front Headlight LED,,1,piece,,,
+  - Rear Taillight LED,,1,piece,,,
+  - Main Electrical Wiring Harness,,1,piece,,,
+Charging System,electrical,1,set,25.0,3,Standard charging port for convenience
+  - Charging Port Receptacle,,1,piece,,,
+  - External Battery Charger (36V),,1,piece,,,
+  - Charging Port Cover,,1,piece,,,
+Fenders & Accessories,structural,1,set,25.0,4,Includes essential accessories for urban use
+  - Front Fender,,1,piece,,,
+  - Rear Fender,,1,piece,,,
+  - Electric Bell,,1,piece,,,
+"  - Reflectors (Front, Rear, Side)",,4,pieces,,,
+Fasteners & Hardware Kit,hardware,1,kit,0.05,4,Standard metric fasteners for assembly
+  - Assorted Bolts & Screws,,1,kit,,,
+  - Assorted Nuts & Washers,,1,kit,,,
+  - Cable Management Clips,,10,pieces,,,
+  - Rubber Grommets,,5,pieces,,,
+1,,1,piece,,0,Manually added
+
+TOTAL ESTIMATED COST,,,,$460.55

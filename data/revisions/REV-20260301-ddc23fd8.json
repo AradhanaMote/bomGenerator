@@ -1,0 +1,455 @@
+{
+  "revision_id": "REV-20260301-ddc23fd8",
+  "timestamp": "2026-03-01T19:33:59.328285",
+  "user": "system",
+  "bom": {
+    "product_name": "Portable Bluetooth Speaker with USB-C Charging",
+    "description": "Design a Bluetooth speaker with rechargeable battery and USB charging",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Speaker Drivers Assembly",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "assembly",
+        "subcomponents": [
+          {
+            "name": "Full-Range Speaker Driver (40mm-52mm)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Passive Radiator (for bass enhancement)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Speaker Gaskets/Seals",
+            "quantity": 3,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Internal Speaker Wiring Harness",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Stereo speaker setup with a single passive radiator",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-002",
+        "name": "Main Control Board (PCB)",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Bluetooth Audio SoC (System on Chip)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Audio Amplifier IC (Class D)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Microcontroller Unit (MCU)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "PCB Antenna (or external antenna connector)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Passive Components (Resistors, Capacitors, Inductors)",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Integrates Bluetooth, DSP, and amplifier functions",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-003",
+        "name": "Rechargeable Battery Pack",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Lithium-Ion Cells (e.g., 18650 type)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Battery Management System (BMS) Board",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Battery Connector (JST or similar)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Heat Shrink Wrap / Insulation",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "7.4V, 2000-4000mAh capacity",
+        "estimated_cost": 85.5,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-004",
+        "name": "Power Management & Charging Circuit",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "USB-C Charging Controller IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Boost/Buck Converter IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Voltage Regulators (LDOs)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Charging Status LED",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Handles battery charging, power regulation for all components",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-005",
+        "name": "Enclosure Housing",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Front Panel (with speaker openings)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Panel (with port openings)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Main Body/Shell",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Internal Mounting Posts/Brackets",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "ABS plastic or similar durable material",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-006",
+        "name": "User Interface Panel",
+        "category": "mechanical",
+        "quantity": 1,
+        "unit": "assembly",
+        "subcomponents": [
+          {
+            "name": "Tactile Push Buttons (Power, Vol+, Vol-, Play/Pause)",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Button Caps/Covers",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Status LEDs (Bluetooth, Power)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Small Control PCB (for buttons/LEDs)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Top-mounted control panel",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-007",
+        "name": "Input/Output Ports",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "assembly",
+        "subcomponents": [
+          {
+            "name": "USB-C Receptacle (for charging)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "3.5mm AUX Input Jack",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Microphone (for hands-free calls)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Port Gaskets/Seals (if water-resistant)",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Rear-mounted ports",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-008",
+        "name": "Speaker Grille Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "assembly",
+        "subcomponents": [
+          {
+            "name": "Metal Mesh Grille",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Grille Frame/Bezel",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Acoustic Fabric (optional)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Mounting Clips/Adhesive",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Protects speaker drivers",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-009",
+        "name": "Fasteners and Adhesives",
+        "category": "hardware",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Small Machine Screws (M2-M3)",
+            "quantity": 16,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Self-Tapping Screws (for enclosure)",
+            "quantity": 6,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Double-Sided Adhesive Tape",
+            "quantity": 1,
+            "unit": "roll",
+            "verify_needed": false
+          },
+          {
+            "name": "Liquid Adhesive/Sealant",
+            "quantity": 1,
+            "unit": "tube",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "For securing internal components and enclosure",
+        "estimated_cost": 0.1,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-010",
+        "name": "Miscellaneous Hardware",
+        "category": "hardware",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Rubber Feet",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Internal Wiring Harnesses (various)",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          },
+          {
+            "name": "Ferrite Bead (for EMI suppression)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Small parts for assembly and stability",
+        "estimated_cost": 0.05,
+        "cost_unit": "USD"
+      }
+    ],
+    "generated_at": "2026-03-01T19:33:59.326463",
+    "total_components": 10,
+    "validated_at": "2026-03-01T19:33:59.327058",
+    "cost_estimate": {
+      "total_usd": 260.65,
+      "breakdown": [
+        {
+          "name": "Speaker Drivers Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Main Control Board (PCB)",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Rechargeable Battery Pack",
+          "quantity": 1,
+          "unit_cost": 85.5,
+          "total": 85.5
+        },
+        {
+          "name": "Power Management & Charging Circuit",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Enclosure Housing",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "User Interface Panel",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Input/Output Ports",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Speaker Grille Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Fasteners and Adhesives",
+          "quantity": 1,
+          "unit_cost": 0.1,
+          "total": 0.1
+        },
+        {
+          "name": "Miscellaneous Hardware",
+          "quantity": 1,
+          "unit_cost": 0.05,
+          "total": 0.05
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}

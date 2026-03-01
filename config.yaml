@@ -1,0 +1,21 @@
+llm:
+  provider: "openai"  # or "anthropic", "local"
+  model: "gpt-3.5-turbo"
+  temperature: 0.3
+  max_tokens: 2000
+
+validation:
+  max_quantity_threshold: 100
+  enable_component_checking: true
+
+cost_estimation:
+  default_cost: 25.0
+  currency: "USD"
+
+export:
+  csv_delimiter: ","
+  date_format: "%Y%m%d_%H%M%S"
+
+revision_control:
+  max_revisions: 50
+  storage_dir: "data/revisions"

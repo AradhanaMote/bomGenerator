@@ -1,0 +1,44 @@
+{
+  "revision_id": "REV-20260301-a14e7149",
+  "timestamp": "2026-03-01T19:30:35.782449",
+  "user": "system",
+  "bom": {
+    "product_name": "Product (Manual Entry)",
+    "description": "Component parse failed",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Main Assembly",
+        "category": "assembly",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [],
+        "verify_needed": true,
+        "notes": "Manual verification required",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      }
+    ],
+    "total_components": 1,
+    "generated_at": "2026-03-01T19:30:35.781604",
+    "fallback": true,
+    "validated_at": "2026-03-01T19:30:35.781952",
+    "cost_estimate": {
+      "total_usd": 25.0,
+      "breakdown": [
+        {
+          "name": "Main Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "revision_id": "REV-20260301-519208b8",
+  "timestamp": "2026-03-01T19:32:21.593080",
+  "user": "system",
+  "bom": {
+    "product_name": "Basic LED Desk Lamp with Metal Stand",
+    "description": "Create a basic desk lamp with LED bulb and metal stand",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Lamp Base Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Metal Base Plate",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Base Counterweight (Cast Iron)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Non-slip Felt Pad",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Arm Mounting Bracket",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Provides stability and support for the lamp structure.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-002",
+        "name": "Lower Arm Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Lower Arm Tube (Metal)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Base-to-Arm Friction Hinge",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Internal Cable Routing Clips",
+            "quantity": 3,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Connects the base to the upper arm, allowing vertical adjustment.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-003",
+        "name": "Upper Arm Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Upper Arm Tube (Metal)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Arm-to-Arm Friction Hinge",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Head Mounting Bracket",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Internal Cable Routing Clips",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Connects the lower arm to the lamp head, allowing further adjustment.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-004",
+        "name": "Lamp Head Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Metal Lamp Shade/Housing",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Socket Mounting Plate",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Head-to-Arm Swivel Joint",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Houses the LED bulb and directs light.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-005",
+        "name": "LED Light Source",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "A19 LED Bulb (E26/E27 Base)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "LED Driver Circuit",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Diffuser Lens",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Energy-efficient light source, typically 8-10W equivalent to 60W incandescent.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-006",
+        "name": "Lamp Socket",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "E26/E27 Screw Base Socket Body",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Brass Contact Terminals",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Insulating Sleeve",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Connects the LED bulb to the electrical circuit.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-007",
+        "name": "Power Cord with Plug",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "2-Conductor SPT-1 Power Cord (6 ft)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "NEMA 1-15P Polarized Plug",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Cord Strain Relief Bushing",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Supplies power from the wall outlet to the lamp.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-008",
+        "name": "On/Off Switch",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Rocker Switch Mechanism",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Switch Housing/Bezel",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Electrical Terminals",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Controls the power flow to the LED bulb.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-009",
+        "name": "Internal Wiring Harness",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "18 AWG Stranded Copper Wire (Black)",
+            "quantity": 3,
+            "unit": "feet",
+            "verify_needed": false
+          },
+          {
+            "name": "18 AWG Stranded Copper Wire (White)",
+            "quantity": 3,
+            "unit": "feet",
+            "verify_needed": false
+          },
+          {
+            "name": "Wire Nuts/Crimp Connectors",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Heat Shrink Tubing",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Connects the socket, switch, and power cord internally.",
+        "estimated_cost": 18.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-010",
+        "name": "Fastener Kit",
+        "category": "hardware",
+        "quantity": 1,
+        "unit": "kit",
+        "subcomponents": [
+          {
+            "name": "M4 x 10mm Machine Screws",
+            "quantity": 6,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "M4 Hex Nuts",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "M4 Flat Washers",
+            "quantity": 10,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Self-tapping Screws (for felt pad)",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Hinge Adjustment Screws/Knobs",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Assorted hardware for assembly and securing components.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      }
+    ],
+    "generated_at": "2026-03-01T19:32:21.591971",
+    "total_components": 10,
+    "validated_at": "2026-03-01T19:32:21.592742",
+    "cost_estimate": {
+      "total_usd": 243.0,
+      "breakdown": [
+        {
+          "name": "Lamp Base Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Lower Arm Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Upper Arm Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Lamp Head Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "LED Light Source",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Lamp Socket",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Power Cord with Plug",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "On/Off Switch",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Internal Wiring Harness",
+          "quantity": 1,
+          "unit_cost": 18.0,
+          "total": 18.0
+        },
+        {
+          "name": "Fastener Kit",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}
