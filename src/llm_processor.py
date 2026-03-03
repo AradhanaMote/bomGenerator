@@ -1,5 +1,3 @@
-# src/llm_processor.py
-
 import os
 import json
 from typing import Dict, Any, Optional
