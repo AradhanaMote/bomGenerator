@@ -1,0 +1,223 @@
+{
+  "revision_id": "REV-20260303-680b9066",
+  "timestamp": "2026-03-03T09:51:36.102681",
+  "user": "system",
+  "bom": {
+    "product_name": "Electric Scooter (Template)",
+    "description": "Design a small electric scooter with lithium battery, disc brakes, LED display",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Lithium Battery Pack",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "18650 Cells",
+            "quantity": 20,
+            "unit": "pieces",
+            "verify_needed": true
+          },
+          {
+            "name": "BMS",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Battery Case",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          }
+        ],
+        "verify_needed": true,
+        "notes": "36V 10Ah - verify specifications",
+        "estimated_cost": 85.5,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-002",
+        "name": "Hub Motor",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "350W Motor",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Controller",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Wiring Harness",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          }
+        ],
+        "verify_needed": true,
+        "notes": "Verify power rating",
+        "estimated_cost": 75.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-003",
+        "name": "Disc Brake System",
+        "category": "mechanical",
+        "quantity": 2,
+        "unit": "sets",
+        "subcomponents": [
+          {
+            "name": "Brake Caliper",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": true
+          },
+          {
+            "name": "Brake Rotor",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": true
+          },
+          {
+            "name": "Brake Pads",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": true
+          },
+          {
+            "name": "Brake Cables",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": true
+          }
+        ],
+        "verify_needed": true,
+        "notes": "Front and rear - verify rotor size",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-004",
+        "name": "LED Display",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "LCD Screen",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Control Board",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Display Housing",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          }
+        ],
+        "verify_needed": true,
+        "notes": "Speed and battery display",
+        "estimated_cost": 35.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-005",
+        "name": "Frame Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Aluminum Deck",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Steering Column",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Handlebar",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          },
+          {
+            "name": "Folding Mechanism",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": true
+          }
+        ],
+        "verify_needed": true,
+        "notes": "Verify material and dimensions",
+        "estimated_cost": 120.0,
+        "cost_unit": "USD"
+      }
+    ],
+    "total_components": 5,
+    "generated_at": "2026-03-03T09:51:36.096109",
+    "fallback": true,
+    "validated_at": "2026-03-03T09:51:36.100525",
+    "cost_estimate": {
+      "total_usd": 365.5,
+      "breakdown": [
+        {
+          "name": "Lithium Battery Pack",
+          "quantity": 1,
+          "unit_cost": 85.5,
+          "total": 85.5
+        },
+        {
+          "name": "Hub Motor",
+          "quantity": 1,
+          "unit_cost": 75.0,
+          "total": 75.0
+        },
+        {
+          "name": "Disc Brake System",
+          "quantity": 2,
+          "unit_cost": 25.0,
+          "total": 50.0
+        },
+        {
+          "name": "LED Display",
+          "quantity": 1,
+          "unit_cost": 35.0,
+          "total": 35.0
+        },
+        {
+          "name": "Frame Assembly",
+          "quantity": 1,
+          "unit_cost": 120.0,
+          "total": 120.0
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}

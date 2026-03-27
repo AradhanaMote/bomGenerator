@@ -1,0 +1,431 @@
+{
+  "revision_id": "REV-20260303-5a189d4d",
+  "timestamp": "2026-03-03T10:18:53.780718",
+  "user": "system",
+  "bom": {
+    "product_name": "Smart Thermostat with Touch Screen",
+    "description": "Create a smart thermostat with touch screen and temperature sensors",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Main Control Board Assembly",
+        "category": "assembly",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Microcontroller Unit (MCU)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Flash Memory IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "RAM IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Crystal Oscillator",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Printed Circuit Board (PCB)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Houses the core logic and processing unit.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-002",
+        "name": "Touch Screen Display Module",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "LCD Panel",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Capacitive Touch Overlay",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Display Driver IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Flexible Printed Circuit (FPC) Cable",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "User interface for interaction and display.",
+        "estimated_cost": 35.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-003",
+        "name": "Temperature & Humidity Sensor Module",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Digital Temperature Sensor IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Digital Humidity Sensor IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Sensor Module PCB",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Measures ambient room conditions.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-004",
+        "name": "Wireless Communication Module",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Wi-Fi Module (e.g., ESP32-WROOM)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Bluetooth Low Energy (BLE) IC",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Integrated PCB Antenna",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Enables remote control and network connectivity.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-005",
+        "name": "Power Management Unit",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "AC-DC Converter Circuit",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Voltage Regulator ICs (e.g., 5V, 3.3V)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Electrolytic Capacitors",
+            "quantity": 4,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Power Input Terminal Block",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Converts input power to required voltages for components.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-006",
+        "name": "HVAC Relay Control Board",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "SPDT Relays (24V AC rated)",
+            "quantity": 6,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Relay Driver ICs",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "HVAC Wiring Terminal Blocks",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Relay Control PCB",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Controls the heating, ventilation, and air conditioning system.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-007",
+        "name": "Enclosure Housing",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Front Bezel (Plastic Injection Molded)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Back Plate (Plastic Injection Molded)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Light Pipe (for LED indicator)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Protective casing for all internal components.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-008",
+        "name": "Mounting Hardware Kit",
+        "category": "hardware",
+        "quantity": 1,
+        "unit": "kit",
+        "subcomponents": [
+          {
+            "name": "Wall Anchors",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Mounting Screws",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Terminal Screws (spare)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "For securing the thermostat to the wall.",
+        "estimated_cost": 0.05,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-009",
+        "name": "User Interface Indicators",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "RGB Status LED",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Ambient Light Sensor",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Reset Button (Tactile Switch)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Provides visual feedback and basic physical interaction.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-010",
+        "name": "Packaging & Documentation",
+        "category": "assembly",
+        "quantity": 1,
+        "unit": "kit",
+        "subcomponents": [
+          {
+            "name": "Retail Box (Printed Cardboard)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Quick Start Guide",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "User Manual",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Protective Foam Inserts",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "For shipping, presentation, and user guidance.",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      }
+    ],
+    "generated_at": "2026-03-03T10:18:53.779139",
+    "total_components": 10,
+    "validated_at": "2026-03-03T10:18:53.779957",
+    "cost_estimate": {
+      "total_usd": 235.05,
+      "breakdown": [
+        {
+          "name": "Main Control Board Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Touch Screen Display Module",
+          "quantity": 1,
+          "unit_cost": 35.0,
+          "total": 35.0
+        },
+        {
+          "name": "Temperature & Humidity Sensor Module",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Wireless Communication Module",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Power Management Unit",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "HVAC Relay Control Board",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Enclosure Housing",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Mounting Hardware Kit",
+          "quantity": 1,
+          "unit_cost": 0.05,
+          "total": 0.05
+        },
+        {
+          "name": "User Interface Indicators",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Packaging & Documentation",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "revision_id": "REV-20260303-b8eabffa",
+  "timestamp": "2026-03-03T10:07:52.530234",
+  "user": "system",
+  "bom": {
+    "product_name": "Compact Electric Scooter with Disc Brakes and LED Display",
+    "description": "Design a small electric scooter with lithium battery, disc brakes, LED display",
+    "components": [
+      {
+        "id": "comp-001",
+        "name": "Frame Assembly",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Main Frame Body",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Folding Mechanism",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Deck Plate",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Kickstand",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Aluminum alloy frame for lightweight design",
+        "estimated_cost": 120.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-002",
+        "name": "Front Fork & Wheel Assembly",
+        "category": "mechanical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Front Fork",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Front Wheel Rim",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Front Tire (8-10 inch)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Front Inner Tube",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Front Axle",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Pneumatic tire for shock absorption",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-003",
+        "name": "Rear Motor & Wheel Assembly",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Brushless DC Hub Motor (250-350W)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Wheel Rim",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Tire (8-10 inch)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Inner Tube",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Axle",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Integrated hub motor for direct drive",
+        "estimated_cost": 75.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-004",
+        "name": "Steering & Handlebar Assembly",
+        "category": "mechanical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Handlebar",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Stem",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Handlebar Grips",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Headset Bearings",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Ergonomic grips for comfort",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-005",
+        "name": "Lithium Battery Pack",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "18650 Lithium-ion Cells (e.g., 36V 10Ah)",
+            "quantity": 20,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Battery Management System (BMS)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Battery Enclosure",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Power Output Connector",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "High-capacity battery for extended range",
+        "estimated_cost": 85.5,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-006",
+        "name": "Electronic Control Unit (ECU)",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "Motor Controller (ESC)",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Wiring Harness",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Power Distribution Board",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Various Electrical Connectors",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Controls motor speed, braking, and power distribution",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-007",
+        "name": "Braking System",
+        "category": "mechanical",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Front Disc Brake Caliper",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Disc Brake Caliper",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Brake Levers (Left & Right)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Brake Cables",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          },
+          {
+            "name": "Brake Rotors (Front & Rear)",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Dual disc brakes for reliable stopping power",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-008",
+        "name": "LED Display & User Interface",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "piece",
+        "subcomponents": [
+          {
+            "name": "LED Display Screen",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Thumb Throttle Control",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Power Button",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Mode Selection Buttons",
+            "quantity": 1,
+            "unit": "set",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Displays speed, battery level, and ride mode",
+        "estimated_cost": 35.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-009",
+        "name": "Lighting System",
+        "category": "electrical",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Front LED Headlight",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear LED Taillight",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Brake Light",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Side Reflectors",
+            "quantity": 2,
+            "unit": "pieces",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Integrated lighting for visibility and safety",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      },
+      {
+        "id": "comp-010",
+        "name": "Fenders & Charging System",
+        "category": "structural",
+        "quantity": 1,
+        "unit": "set",
+        "subcomponents": [
+          {
+            "name": "Front Fender",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Rear Fender",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "Charging Port",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          },
+          {
+            "name": "External Battery Charger",
+            "quantity": 1,
+            "unit": "piece",
+            "verify_needed": false
+          }
+        ],
+        "verify_needed": false,
+        "notes": "Includes necessary charging interface",
+        "estimated_cost": 25.0,
+        "cost_unit": "USD"
+      }
+    ],
+    "generated_at": "2026-03-03T10:07:52.528992",
+    "total_components": 10,
+    "validated_at": "2026-03-03T10:07:52.529530",
+    "cost_estimate": {
+      "total_usd": 465.5,
+      "breakdown": [
+        {
+          "name": "Frame Assembly",
+          "quantity": 1,
+          "unit_cost": 120.0,
+          "total": 120.0
+        },
+        {
+          "name": "Front Fork & Wheel Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Rear Motor & Wheel Assembly",
+          "quantity": 1,
+          "unit_cost": 75.0,
+          "total": 75.0
+        },
+        {
+          "name": "Steering & Handlebar Assembly",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Lithium Battery Pack",
+          "quantity": 1,
+          "unit_cost": 85.5,
+          "total": 85.5
+        },
+        {
+          "name": "Electronic Control Unit (ECU)",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Braking System",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "LED Display & User Interface",
+          "quantity": 1,
+          "unit_cost": 35.0,
+          "total": 35.0
+        },
+        {
+          "name": "Lighting System",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        },
+        {
+          "name": "Fenders & Charging System",
+          "quantity": 1,
+          "unit_cost": 25.0,
+          "total": 25.0
+        }
+      ],
+      "currency": "USD",
+      "estimated_at": "2024-01-01"
+    }
+  },
+  "previous_revision": null,
+  "changes": [
+    "Initial version"
+  ]
+}
